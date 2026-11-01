@@ -1,99 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Magara Reyvandika — Portfolio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Magara Reyvandika — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header><div class="wrap"><nav>
-<ul id="nav"><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#certificates">Certificates</a></li><li><a href="#terminal">Terminal</a></li><li><a href="#path">Path</a></li><li><a href="#contact">Contact</a></li></ul>
-<button id="theme" type="button" aria-label="Switch between light and dark mode" title="Light / dark mode"><svg class="moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
-</nav></div><div id="bar"></div></header>
+  <header>
+    <div class="wrap">
+      <nav>
+        <ul id="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#terminal">Terminal</a></li>
+          <li><a href="#path">Path</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme" type="button" aria-label="Switch between light and dark mode" title="Light / dark mode">
+          <svg class="moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+          </svg>
+          <svg class="sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+    <div id="bar"></div>
+  </header>
 
-<main>
-<div class="wrap hero">
-<div>
-<h1>Magara Reyvandika</h1>
-<div id="role" aria-live="off"></div>
-<p>Informatics Engineering student at UIN Sunan Kalijaga with a networking foundation, building toward a career as a Cloud Engineer.</p>
-<div class="btns"><a class="btn main" href="#projects">See projects</a><a class="btn" href="#terminal">Try the terminal</a></div>
-</div>
-<div class="map">
-<div class="goalbox" id="goal" tabindex="0" role="button"><b>Cloud Engineer</b><span>Long-term goal. Click to see my path.</span></div>
-<div class="spine" aria-hidden="true"></div>
-<div class="grp"><h3>Foundation</h3><div class="pills">
-<button class="pill used" type="button" data-go="#path" data-t="My base: vocational school in computer networking, an IT Support internship, and a network technician contract. Click to see the path."><i></i>Networking</button>
-<button class="pill" type="button" data-tag="Linux" data-t="Learning Linux for system administration and security. Click to filter projects."><i></i>Linux</button>
-<button class="pill" type="button" data-tag="Bash" data-t="Bash is my newest skill: working in the command line and automating small tasks."><i></i>Bash</button>
-</div></div>
-<div class="grp"><h3>Programming</h3><div class="pills">
-<button class="pill" type="button" data-tag="C" data-t="C to understand data structures and how systems work up close. Click to filter projects."><i></i>C</button>
-<button class="pill" type="button" data-tag="Python" data-t="Python for programming fundamentals and automation. Click to filter projects."><i></i>Python</button>
-<button class="pill" type="button" data-tag="JavaScript" data-t="HTML, CSS, and JavaScript for web projects like this site. Click to filter projects."><i></i>HTML / CSS / JS</button>
-</div></div>
-<div class="legend"><span><i class="f"></i>Used at work</span><span><i></i>Learning</span></div>
-<p id="cap">Hover or tap a skill to read about it. Everything feeds into the goal above.</p>
-</div>
-</div>
+  <main>
+    <div class="wrap hero">
+      <div>
+        <h1>Magara Reyvandika</h1>
+        <div id="role" aria-live="off"></div>
+        <p>Informatics Engineering student at UIN Sunan Kalijaga with a networking foundation, building toward a career as a Cloud Engineer.</p>
+        <div class="btns">
+          <a class="btn main" href="#projects">See projects</a>
+          <a class="btn" href="#terminal">Try the terminal</a>
+        </div>
+      </div>
 
-<section id="about"><div class="wrap">
-<h2>About</h2>
-<div class="about">
-<div>
-<p>I'm from the Garut and Bandung area and studied computer networking (TKJ) at SMKN 1 Garut. Before university I worked as an IT Support intern and a network technician.</p>
-<p>Now I study Informatics Engineering in Yogyakarta and learn programming from the ground up. My focus stays on networking and security, not just building interfaces.</p>
-</div>
-<ul class="facts">
-<li><span>Studying</span>Informatics Engineering, UIN Sunan Kalijaga</li>
-<li><span>Background</span>Computer Networking, SMKN 1 Garut</li>
-<li><span>Goal</span>Cloud Engineer</li>
-</ul>
-</div>
-</div></section>
+      <div class="map">
+        <div class="goalbox" id="goal" tabindex="0" role="button">
+          <b>Cloud Engineer</b>
+          <span>Long-term goal. Click to see my path.</span>
+        </div>
+        <div class="spine" aria-hidden="true"></div>
 
-<section id="projects"><div class="wrap">
-<h2>Projects</h2>
-<div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
-<div class="grid" id="grid"></div>
-</div></section>
+        <div class="grp">
+          <h3>Foundation</h3>
+          <div class="pills">
+            <button class="pill used" type="button" data-go="#path" data-t="My base: vocational school in computer networking, an IT Support internship, and a network technician contract. Click to see the path."><i></i>Networking</button>
+            <button class="pill" type="button" data-tag="Linux" data-t="Learning Linux for system administration and security. Click to filter projects."><i></i>Linux</button>
+            <button class="pill" type="button" data-tag="Bash" data-t="Bash is my newest skill: working in the command line and automating small tasks."><i></i>Bash</button>
+          </div>
+        </div>
 
-<section id="certificates"><div class="wrap">
-<h2>Certificates</h2>
-<div class="grid" id="certs"></div>
-</div></section>
+        <div class="grp">
+          <h3>Programming</h3>
+          <div class="pills">
+            <button class="pill" type="button" data-tag="C" data-t="C to understand data structures and how systems work up close. Click to filter projects."><i></i>C</button>
+            <button class="pill" type="button" data-tag="Python" data-t="Python for programming fundamentals and automation. Click to filter projects."><i></i>Python</button>
+            <button class="pill" type="button" data-tag="JavaScript" data-t="HTML, CSS, and JavaScript for web projects like this site. Click to filter projects."><i></i>HTML / CSS / JS</button>
+          </div>
+        </div>
 
-<section id="terminal"><div class="wrap">
-<h2>Ask my terminal</h2>
-<div class="term">
-<header>gara@portfolio: ~</header>
-<div id="out" aria-live="polite"></div>
-<div class="inrow"><span>$</span><input id="in" type="text" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="Type a command and press Enter"></div>
-</div>
-<p class="hint">Click a command below, or type your own in the terminal and press Enter.</p>
-<div class="chips" id="chips"></div>
-</div></section>
+        <div class="legend">
+          <span><i class="f"></i>Used at work</span>
+          <span><i></i>Learning</span>
+        </div>
+        <p id="cap">Hover or tap a skill to read about it. Everything feeds into the goal above.</p>
+      </div>
+    </div>
 
-<section id="path"><div class="wrap">
-<h2>My path</h2>
-<ul class="tl" id="tl"></ul>
-</div></section>
+    <section id="about">
+      <div class="wrap">
+        <h2>About</h2>
+        <div class="about">
+          <div>
+            <p>Informatics undergraduate leveraging a background in Computer and Network Engineering to build expertise in modern IT infrastructure. Deeply focused on Network Administration, Cloud Computing, and Infrastructure Security. 
+               Driven to design scalable cloud-based architectures and secure network systems that solve complex digital challenges.</p>
+            <p>Complemented by hands-on project experience, I am constantly expanding my technical skill set through industry certifications and self-driven learning.
+               I am eager to contribute my knowledge to a forward-thinking team, adapt to emerging technologies, and add value to complex infrastructure projects from day one.</p>
+          </div>
+          <ul class="facts">
+            <li><span>Studying</span>Informatics Engineering, UIN Sunan Kalijaga</li>
+            <li><span>Background</span>Computer Networking, SMKN 1 Garut</li>
+            <li><span>Goal</span>Cloud Engineer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<section id="contact"><div class="wrap contact">
-<h2>Contact</h2>
-<p>Open to conversations, collaboration, and internships in networking and security.</p>
-<div class="cgrid" id="links"></div>
-</div></section>
-</main>
-<footer><div class="wrap">© <span id="yr"></span> Magara Reyvandika</div></footer>
+    <section id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
 
-<dialog id="dlg" aria-labelledby="dt"><span class="status" id="ds"></span><h3 id="dt"></h3><p id="dd"></p><div id="dprev"></div><h4>What I'm practicing</h4><ul id="dl"></ul><div class="btns"><a class="btn main" id="dlive" target="_blank" rel="noopener">Open live site</a><a class="btn" id="dlink" target="_blank" rel="noopener">View code</a><button class="btn" id="dclose" type="button">Close</button></div></dialog>
+    <section id="certificates">
+      <div class="wrap">
+        <h2>Certificates</h2>
+        <div class="grid" id="certs"></div>
+      </div>
+    </section>
 
-<dialog id="cdlg" aria-labelledby="ct"><span class="status" id="cs"></span><h3 id="ct"></h3><p id="cm"></p><div id="cimg"></div><div class="btns"><a class="btn main" id="clink" target="_blank" rel="noopener">Verify credential</a><button class="btn" id="cclose" type="button">Close</button></div></dialog>
+    <section id="terminal">
+      <div class="wrap">
+        <h2>Ask my terminal</h2>
+        <div class="term">
+          <header>gara@portfolio: ~</header>
+          <div id="out" aria-live="polite"></div>
+          <div class="inrow">
+            <span>$</span>
+            <input id="in" type="text" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="Type a command and press Enter">
+          </div>
+        </div>
+        <p class="hint">Click a command below, or type your own in the terminal and press Enter.</p>
+        <div class="chips" id="chips"></div>
+      </div>
+    </section>
 
-<script src="js/main.js"></script>
+    <section id="path">
+      <div class="wrap">
+        <h2>My path</h2>
+        <ul class="tl" id="tl"></ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact">
+        <h2>Contact</h2>
+        <p>Open to conversations, collaboration, and internships in networking and security.</p>
+        <div class="cgrid" id="links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; <span id="yr"></span> Magara Reyvandika</div>
+  </footer>
+
+  <dialog id="dlg" aria-labelledby="dt">
+    <span class="status" id="ds"></span>
+    <h3 id="dt"></h3>
+    <p id="dd"></p>
+    <div id="dprev"></div>
+    <h4>What I'm practicing</h4>
+    <ul id="dl"></ul>
+    <div class="btns">
+      <a class="btn main" id="dlive" target="_blank" rel="noopener">Open live site</a>
+      <a class="btn" id="dlink" target="_blank" rel="noopener">View code</a>
+      <button class="btn" id="dclose" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <dialog id="cdlg" aria-labelledby="ct">
+    <span class="status" id="cs"></span>
+    <h3 id="ct"></h3>
+    <p id="cm"></p>
+    <div id="cimg"></div>
+    <div class="btns">
+      <a class="btn main" id="clink" target="_blank" rel="noopener">Verify credential</a>
+      <button class="btn" id="cclose" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

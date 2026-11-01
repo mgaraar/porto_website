@@ -92,9 +92,9 @@ var CERTS = [
 ];
 
 var CONTACT = [
-  { label: "Email", href: "mailto:YOUR_EMAIL@example.com" },
+  { label: "Email", href: "mailto:magaraaar@gmail.com" },
   { label: "GitHub", href: "https://github.com/mgaraar" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/YOUR_USERNAME" }
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/magara-reyvandika" }
 ];
 
 // ====== END ======
